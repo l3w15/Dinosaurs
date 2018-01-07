@@ -1,14 +1,8 @@
 class PagesController < ApplicationController
-  def home # tylko na serwerze
+
+  # this file works only on server. The content of this file will
+  # not be visible on the website.
+  def home
+    @places = Place.all
   end
-
-  # def create
-  #   @dinotable = Dinotable.new(dino_params)
-  #   if @dinotable.save
-  #     redirect_to '/dinosaurs'
-  #   else
-  #     render 'new'
-  #   end
-  # end
-
 end
