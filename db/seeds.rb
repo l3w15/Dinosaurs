@@ -6,8 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Place.create([ 
-  {name: "RESTAURANT DINO", description: "The beach of Ipanema is known for its elegant development and its social life."},
-  {name: "MUSEUM DINO", description: "The western coastline contains the island's finest beaches."},
-  {name: "PUB DINO", description: "An elite destination famous for its white sand beaches"}
+Place.create([
+  {name: "RESTAURANT DINO", description: "This particular dino can be found in Dino-Restaurant in Clerkenwell."},
+  {name: "MUSEUM DINO", description: "T-Rex in British Museum."},
+  {name: "PUB DINO", description: "Drunken Dino in Hackney."},
+  {name: "UNDERGROUND DINO", description: "Dino on the sewers."}
 ])
