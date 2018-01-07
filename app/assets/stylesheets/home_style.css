@@ -115,14 +115,7 @@ p1 {
   text-align: justify;
 }
 
-@media only screen and (max-device-width: 480px) {
-  div#oferta {
-    display: block;
-    font-size: 0.6em;
-  }
-}
-
-div#dino_box {
+.dino_box {
   color: black;
   margin-right: 2%;
   margin-left: 2%;
@@ -130,12 +123,6 @@ div#dino_box {
   margin-bottom: 1em;
   padding: 5%;
 }
-
-div#box:hover {
-transform: scale(1.1);
-background-color: rgba(125, 191, 141, 0.98);
-color: #282727;
- }
 
 h2 {
 	text-align: center;
