@@ -1,0 +1,173 @@
+body, html {
+  font-family: 'Lucida Console', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: initial;
+  background: white;
+}
+
+/* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
+
+div.top-menu {
+	display: flex;
+	width: 100%;
+	height: 3.3em;
+	position: fixed;
+	z-index: 1;
+	background-color: #fffffff5;
+  border-bottom-color: #ad8f5178;
+	border-bottom-style: solid;
+	border-bottom-width: 0.05em;
+}
+
+nav.navigation {
+	width: 100%;
+	z-index: 1;
+	height: 3.3em;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+#top a:link {
+	color: #6d9d78;
+	text-decoration: none;
+}
+
+#top a:visited {
+	text-decoration: none;
+	color: #6d9d78;
+}
+
+#top a:hover {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+#top a:active {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+
+ ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  height: 3em;
+  vertical-align: center;
+  overflow: scroll;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ li {
+ color: #517858;
+ font-family: Playfair Display SC;
+  font-weight: 130;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  width: 23.5%;
+  text-align: center;
+  padding-top: 0.7em;
+  font-size: 1.3em;
+}
+
+li:hover {
+	color: #c07765;
+}
+
+/* --------------------------------------dinosaur_Q_and_A-------------------------------------- */
+h1 {
+  font-family: Playfair Display SC;
+  font-size: 1.6em;
+  color: #ad8f5178;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-top: 6em;
+  margin-left: 2em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
+
+p1 {
+  font-family: Bellefair;
+  font-size: 1.2em;
+  color: #ad8f5178;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-top: 2em;
+  margin-left: 2em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
+/* --------------------------------------dinosaur_grid-------------------------------------- */
+
+.dinosaur_grid {
+  display: grid;
+  margin-top: 1em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: justify;
+}
+
+@media only screen and (max-device-width: 480px) {
+  div#oferta {
+    display: block;
+    font-size: 0.6em;
+  }
+}
+
+div#dino_box {
+  color: black;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 1em;
+  padding: 5%;
+}
+
+div#box:hover {
+transform: scale(1.1);
+background-color: rgba(125, 191, 141, 0.98);
+color: #282727;
+ }
+
+h2 {
+	text-align: center;
+  font-family: Bellefair;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+p2 {
+font-family: Bellefair;
+text-align: justify;
+font-size: 0.9em;
+}
+
+
+/* --------------------------------------FOOTER-------------------------------------- */
+
+.footer {
+  background-color: #54865e;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 0.2em;
+}
+p6 {
+  font-family: Architects Daughter;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+
+p6:hover {
+  color: #e1c53a;
+}
