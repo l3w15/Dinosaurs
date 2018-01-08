@@ -65,7 +65,7 @@ nav.navigation {
  font-family: Playfair Display SC;
  letter-spacing: 0.2em;
  display: inline-block;
- width: 23.5%;
+ width: 19%;
  text-align: center;
  font-size: 1.1em;
 }
@@ -121,40 +121,54 @@ p1 {
 /* --------------------------------------slides-------------------------------------- */
 .slides {
   background-color: #d6cfc775;
-  background-image: url("https://c1.staticflickr.com/6/5275/5883550383_9c6e953c14_b.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
-  height: 48em;
+  height: 30em;
 }
 
 .phenomenon_description {
-background-color: #c0baabe3;
-height: 10em;
+background: #94a397;
+height: 6em;
 }
 
 .description_text {
-width: 80%;
+width: 45%;
 margin-left: auto;
 margin-right: auto;
-padding-top: 2em;
 }
 
 p4 {
 font-family: Playfair Display SC;
 font-size: 1.6em;
-color: #322f26;
-letter-spacing: 0.03em;
-display: inline-block;
+font-weight: 800;
+padding-top: 1.2em;
+color: #464034;
+letter-spacing: 0.01em;
 text-align: center;
-margin-left: 20%;
+display: block;
 }
 
+
+/* --------------------------------------map-------------------------------------- */
+
+.dinosaur_map_invit {
+  background-color: #94a397;
+  height: 6em;
+}
+
+.dinosaur_map {
+  height: 30em;
+  background-color: #d6cfc775;
+}
 /* --------------------------------------dinosaur_grid-------------------------------------- */
 
+.dinosaur_database {
+  background-color: #94a397;
+  height: 6em;
+}
 .dinosaur_grid {
   display: grid;
-  margin-top: 1em;
+  margin-top: 4em;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -201,8 +215,91 @@ margin-right: auto;
 display: block;
 filter: grayscale(50%);
 }
+/* --------------------------------------add-a-dinosaur-------------------------------------- */
+
+.dinosaur_add_invit {
+  background-color: #94a397;
+  height: 6em;
+}
+
+.add_a_dinosaur {
+  padding-top: 2em;
+  background-color: #dfdad3;
+  margin-bottom: 2em;
+  height: 14em;
+}
+
+#velio {
+  display: flex;
+  margin-left: 5%;
+}
+
+p5 {
+  font-family: Playfair Display SC;
+  font-size: 1.6em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 2em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
+
+p6 {
+  font-family: Playfair Display SC;
+  font-size: 1.4em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 2em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
+
+p7 {
+  font-family: Bellefair;
+  font-size: 1.2em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 10em;
+  cursor: default;
+  letter-spacing: 0.02em;
+  margin-left: 4em;
+}
+
+p8 {
+  font-family: Bellefair;
+  font-size: 1.0em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 3em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
 
 
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 35px;
+  margin-left: 68%;
+  position: absolute;
+  margin-top: -8%;
+}
 
 /* --------------------------------------FOOTER-------------------------------------- */
 
@@ -212,15 +309,4 @@ filter: grayscale(50%);
   display: inline-block;
   margin: auto;
   margin-bottom: 0.2em;
-}
-p6 {
-  font-family: Architects Daughter;
-  display: block;
-  font-size: 1em;
-  text-align: center;
-  color: white;
-}
-
-p6:hover {
-  color: #e1c53a;
 }
