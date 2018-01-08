@@ -106,7 +106,7 @@ h1 {
 p1 {
   font-family: Bellefair;
   font-size: 1.2em;
-  color: #b2aba1;
+  color: #938d86;
   display: inline-block;
   text-align: left;
   width: 100%;
@@ -129,25 +129,25 @@ p1 {
 }
 
 .phenomenon_description {
-background-color: #8b826fad;
-height: 11em;
+background-color: #c0baabe3;
+height: 10em;
 }
 
 .description_text {
 width: 80%;
 margin-left: auto;
 margin-right: auto;
-padding-top: 3em;
+padding-top: 2em;
 }
 
 p4 {
-font-family: Bellefair;
-font-size: 1.4em;
-color: rgb(38, 44, 34);
-letter-spacing: 0.05em;
+font-family: Playfair Display SC;
+font-size: 1.6em;
+color: #322f26;
+letter-spacing: 0.03em;
 display: inline-block;
 text-align: center;
-background: #c1bbb2ab;
+margin-left: 20%;
 }
 
 /* --------------------------------------dinosaur_grid-------------------------------------- */
