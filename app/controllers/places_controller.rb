@@ -2,11 +2,14 @@ class PlacesController < ApplicationController
 
   # this file works only on server. The content of this file will
   # not be visible on the website.
-  def home # is used in home.html.erb file
+  def home
+  end
+
+  def dinoplaces # is used in dinoplaces.html.erb file
     @places = Place.all # takes all objects from table place in database
   end
 
-  def new # is used in new.html.erb file 
+  def new # is used in new.html.erb file
     @place = Place.new # prepares a new container for a new object
   end # nothing happens in database - we add new place in create method below
 

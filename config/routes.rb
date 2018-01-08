@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   post '/place' => 'places#create' # post (writing) gdy formularz ma akcję /place i ją wykonamy, wowczas
   # zostaniemy przeniesieni do controllera places, metody create.
   # formularze zawsze tworza akcje post albo put (tylko do tworzenia rzeczy)
+  get '/dinoplaces' => 'places#dinoplaces'
 end
