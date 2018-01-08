@@ -77,6 +77,7 @@ li:hover {
 .intro {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/37/Ichthyosaur_and_Plesiosaur_1863.jpg");
   background-size: cover;
+  height: 60em;
 }
 
 /* --------------------------------------dinosaur_Q_and_A-------------------------------------- */
@@ -96,7 +97,7 @@ h1 {
   display: inline-block;
   text-align: left;
   width: 100%;
-  margin-top: 6em;
+  margin-top: 4em;
   margin-left: 2em;
   cursor: default;
   letter-spacing: 0.02em;
@@ -109,13 +110,46 @@ p1 {
   display: inline-block;
   text-align: left;
   width: 100%;
-  margin-top: 2em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   margin-bottom: 1.5em;
   cursor: default;
   letter-spacing: 0.02em;
 }
+/* --------------------------------------slides-------------------------------------- */
+.slides {
+  background-color: #d6cfc775;
+  background-image: url("https://c1.staticflickr.com/6/5275/5883550383_9c6e953c14_b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  height: 48em;
+}
+
+.phenomenon_description {
+background-color: #8b826fad;
+height: 11em;
+}
+
+.description_text {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 3em;
+}
+
+p4 {
+font-family: Bellefair;
+font-size: 1.4em;
+color: rgb(38, 44, 34);
+letter-spacing: 0.05em;
+display: inline-block;
+text-align: center;
+background: #c1bbb2ab;
+}
+
 /* --------------------------------------dinosaur_grid-------------------------------------- */
 
 .dinosaur_grid {
