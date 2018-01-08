@@ -20,18 +20,36 @@
   			</ul>
 			</nav>
 		</div>
+		<div class ="dinosaur_add_invit">
+			<p4> Add a dinosaur to our website </p4>
+		</div>
+		<div class="add_a_dinosaur">
+			<p6> 1) Fill a form - provide us with: </p6>
+					<p7> > title of image <br>
+					 > description of the image <br>
+					 > address of the dinosaur <br>
+					 > and link to image  <br> </p7>
+				 <p6>
+					2) Add a dinosaur by clicking the button below. </p6> <br><br>
+					 <p8>Remember - once added, the dinosaur info cannot be removed.</p8>
+		</div>
     <div class="create">
       <div class="container">
-       	<%= form_for(@place) do |f| %>
+				<% if @form_error == true %>
+					<div class="wrong_form">
+						There was a missing info in the form
+					</div>
+				<% end %>
+       	<%= form_for(@place, url: '/place') do |f| %>
       		<div class="field">
-        		<%= f.label :place %><br>
+        		<%= f.label "New Dino-Place" %><br>
         		<%= f.text_area :name %>
             <%= f.text_area :description %>
             <%= f.text_area :address %>
             <%= f.text_area :image %>
       		</div>
       		<div class="actions">
-        		<%= f.submit "Create" %>
+        		<%= f.submit "Create" %> <!-- when submit is called, take data from form and send them to url: place_path-->
       		</div>
     		<% end %>
       </div>

@@ -225,7 +225,6 @@ filter: grayscale(50%);
 .add_a_dinosaur {
   padding-top: 2em;
   background-color: #dfdad3;
-  margin-bottom: 2em;
   height: 14em;
 }
 
@@ -282,9 +281,6 @@ p8 {
   cursor: default;
   letter-spacing: 0.02em;
 }
-
-
-
 .button {
   background-color: red;
   border: none;
@@ -299,6 +295,11 @@ p8 {
   margin-left: 68%;
   position: absolute;
   margin-top: -8%;
+}
+
+.about_us_invit {
+  height: 6em;
+  background-color: #94a397;
 }
 
 /* --------------------------------------FOOTER-------------------------------------- */
