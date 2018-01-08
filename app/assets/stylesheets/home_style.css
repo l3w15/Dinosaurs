@@ -110,7 +110,9 @@ p1 {
   text-align: left;
   width: 100%;
   margin-top: 2em;
-  margin-left: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 1.5em;
   cursor: default;
   letter-spacing: 0.02em;
 }
@@ -124,6 +126,7 @@ p1 {
   margin-right: auto;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: justify;
+  grid-column-gap: 1.8em;
 }
 
 .dino_box {
@@ -133,6 +136,7 @@ p1 {
   margin-top: 2%;
   margin-bottom: 1em;
   padding: 5%;
+  background-color: #bfbbb721;
 }
 
 h2 {
@@ -144,6 +148,13 @@ h2 {
 }
 
 p2 {
+font-family: Bellefair;
+text-align: justify;
+font-size: 0.9em;
+color: rgb(143, 74, 78);
+}
+
+p3 {
 font-family: Bellefair;
 text-align: justify;
 font-size: 0.9em;
