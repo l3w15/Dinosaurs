@@ -23,7 +23,7 @@ class PlacesController < ApplicationController
     if place_params[:user_name].length > 0 && place_params[:name].length > 0 && place_params[:description].length > 1 && place_params[:address].length > 1  then
     	@place = Place.new(place_params)
     	if @place.save # if place is saved = created (click create) and saved in DB
-        flash[:notice] = "A new dino has been created by #{place_params[:user_name]}"
+        flash[:notice] = "----- A new dino has been created by < #{place_params[:user_name]} > -----"
         redirect_to '/dinoplaces'
     	else
         @form_error = true

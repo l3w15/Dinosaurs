@@ -49,3 +49,11 @@ margin-right: auto;
 display: block;
 filter: grayscale(50%);
 }
+
+/* -------------------------------- flash notice ---------------- */
+
+.notice {
+  background-color: #e33030;
+  font-family: Playfair Display SC;
+  text-align: center;
+}
