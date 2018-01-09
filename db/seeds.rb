@@ -14,8 +14,8 @@
 # ])
 
 Place.create([
-  {name: "DINO GRILL", description: "Many Dinosaurs can be found in T-Rex Grill.", address: "Cromwell Rd, Kensington, London SW7 5BD", user_name: "Kotauror", image: "http://www.mummyinthecity.com/wp-content/uploads/2017/02/T.-Rex-Grill-Natural-History-Museum.jpg"},
-  {name: "MUSEUM DINO", description: "T-Rex in National History Museum", address: "Cromwell Rd, Kensington, London SW7 5BD", user_name: "Kotauror", image: "http://uniquethingstodo.com/wp-content/uploads/2017/03/dinosource.jpg"},
-  {name: "KITCHEN DINO", description: "Kitchen Dino in Hackney.", address: "Hackney, Secret Kitchen Street, 1.2", user_name: "Kotauror", image: "https://c2.staticflickr.com/6/5047/5270562738_99115d5486_b.jpg"},
-  {name: "UNDERGROUND DINO", description: "Dino on the tube.", address: "One of the lines", user_name: "Kotauror", image: "https://shortlist.imgix.net/app/uploads/2017/08/25125123/6f28a92321e67018977ea241e70c9085-495x330.png?w=1200&h=1&fit=max&auto=format%2Ccompress"}
+  {name: "DINO GRILL", description: "Many Dinosaurs can be found in T-Rex Grill.", address: "Cromwell Rd, Kensington, London SW7 5BD", user_name: "Kotauror", image_address: "http://www.mummyinthecity.com/wp-content/uploads/2017/02/T.-Rex-Grill-Natural-History-Museum.jpg"},
+  {name: "MUSEUM DINO", description: "T-Rex in National History Museum", address: "Cromwell Rd, Kensington, London SW7 5BD", user_name: "Kotauror", image_address: "http://uniquethingstodo.com/wp-content/uploads/2017/03/dinosource.jpg"},
+  {name: "KITCHEN DINO", description: "Kitchen Dino in Hackney.", address: "Hackney, Secret Kitchen Street, 1.2", user_name: "Kotauror", image_address: "https://c2.staticflickr.com/6/5047/5270562738_99115d5486_b.jpg"},
+  {name: "UNDERGROUND DINO", description: "Dino on the tube.", address: "One of the lines", user_name: "Kotauror", image_address: "https://shortlist.imgix.net/app/uploads/2017/08/25125123/6f28a92321e67018977ea241e70c9085-495x330.png?w=1200&h=1&fit=max&auto=format%2Ccompress"}
 ])
