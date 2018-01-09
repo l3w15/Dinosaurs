@@ -36,8 +36,11 @@
 					<p2> Description: <%= place.description %> </p2> <br>
 					<p2> Address: <%= place.address %> </p2> <br>
           <p3> Added by: <%= place.user_name %> </p3> <br><br>
+          <% if place.image_address == nil || place.image_address.length  > 0 then %>
 					<img src=<%= place.image_address %> height="250px" width="250px" class="dinopic">
-          <%= link_to image_tag(place.image.url(:med)), place.image.url  %>
+          <% else %>
+          <%= link_to image_tag(place.image.url(:med)), place.image.url %>
+          <% end %>
 				</div>
 			<% end %>
 		</div>
