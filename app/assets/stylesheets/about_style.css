@@ -1,0 +1,26 @@
+.website_info {
+  background-color: lightgrey;
+  height: 20em;
+}
+
+.about_us {
+  padding-top: 7em;
+  width: 80%;
+  margin-left: 10%;
+}
+
+p10 {
+  font-family: Bellefair;
+  font-size: 1.2em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 1em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
+
+.cat:hover {
+  box-shadow: 0px 0px 40px #ffc542;
+}

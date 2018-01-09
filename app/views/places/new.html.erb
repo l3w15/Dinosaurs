@@ -24,7 +24,9 @@
 		<div class ="subsite_header">
 			<p4> Add a dinosaur to our website </p4>
 		</div>
-
+		<% if flash[:notice] %>
+			<div class="notice"><%= flash[:notice] %></div>
+		<% end %>
 
     <div class="create">
 			<% if @form_error == true %>
@@ -39,9 +41,9 @@
       		<p7> Dinosaur name: * <br> <%= f.text_area :name, class: "single_field", placeholder: "How do you want to name this dinosaur?" %> </p7>
           <p7> Description: * <br> <%= f.text_area :description, class: "single_field", placeholder: "Add a brief description of this dinosaur." %> </p7>
           <p7> Address: * <br> <%= f.text_area :address, class: "single_field", placeholder: "Where can we find this dinosaur?" %> </p7>
-          <p7> Image: <br> <%= f.text_area :image, class: "single_field", placeholder: "Link to the online image of dinosaur" %> </p7>
-					<p8> * - compulsory fields </p8>
+          <p7> Link to image: <br> <%= f.text_area :image, class: "single_field", placeholder: "Link to the online image of dinosaur" %> </p7>
     		</div>
+				<p8> * - mandatory fields </p8>
     		<div class="actions">
       		<%= f.submit "Submit", class: "button" %> <!-- when submit is called, take data from form and send them to url: place_path-->
     		</div>

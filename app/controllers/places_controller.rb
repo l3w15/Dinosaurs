@@ -20,17 +20,18 @@ class PlacesController < ApplicationController
   end # nothing happens in database - we add new place in create method below
 
   def create
-    if place_params[:user_name].length > 0 && place_params[:name].length > 0 && place_params[:description].length > 1 && place_params[:address].length > 1  then
-    	@place = Place.new(place_params)
+    @place = Place.new(place_params)
+    if place_params[:user_name].length > 0 && place_params[:name].length > 0 && place_params[:description].length > 1 && place_params[:address].length > 1 then
     	if @place.save # if place is saved = created (click create) and saved in DB
         flash[:notice] = "----- A new dino has been created by < #{place_params[:user_name]} > -----"
         redirect_to '/dinoplaces'
     	else
         @form_error = true
-      	render 'new' # render new page again, no changes on server/database (refresh)
+      	render 'place/new' # render new page again, no changes on server/database (refresh)
     	end
     else
-      flash[:notice] = "more info"
+      flash[:notice] = "You haven't provided enough information to add a new dinosaur."
+      render 'new' #render new.html.erb view
     end
   end
 

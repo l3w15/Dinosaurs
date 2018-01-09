@@ -8,7 +8,6 @@
 
 .fields {
   padding-top: 3em;
-  padding-bottom: 1em;
 }
 
 .actions {
@@ -53,6 +52,11 @@ p8 {
   letter-spacing: 0.02em;
 }
 
+.form-control-file {
+  margin-left: 7em;
+  margin-bottom: 1em;
+}
+
 .button {
   background-color: #caabab;
   border-radius: 65px;
@@ -76,4 +80,11 @@ p8 {
   margin-left: 35%;
   position: absolute;
   margin-top: -25%;
+}
+/* -------------------------------- flash notice ---------------- */
+
+.notice {
+  background-color: #e33030;
+  font-family: Playfair Display SC;
+  text-align: center;
 }
