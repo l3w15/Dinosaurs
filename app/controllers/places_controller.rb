@@ -9,6 +9,12 @@ class PlacesController < ApplicationController
     @places = Place.all # takes all objects from table place in database
   end
 
+  def map
+  end
+
+  def about
+  end
+
   def new # is used in new.html.erb file
     @place = Place.new # prepares a new container for a new object
   end # nothing happens in database - we add new place in create method below

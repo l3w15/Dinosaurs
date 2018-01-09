@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		 <%= stylesheet_link_tag "dinoplaces_style" %>
      <%= stylesheet_link_tag "general_css" %>
     	<title>London dinosaurs</title>
 		<script src="https://use.fontawesome.com/b6e46f96f4.js"></script>
@@ -21,20 +20,9 @@
   			</ul>
 			</nav>
 		</div>
-		<div class ="subsite_header">
-			<p4> Check out our full dino-database </p4>
-		</div>
-		<div class ="dinosaur_grid">
-			<!-- opening tag and percent below means that we use ruby here [does operation]-->
-			<% @places.each do |place| %>
-				<div class="dino_box">
-					<!-- opening tag, percent and assignment below means that we use ruby here [does operation and returns value]-->
-					<h2> <%= place.name %>  </h2> <br>
-					<p2> <%= place.description %> </p2> <br>
-					<p3> <%= place.address %> </p3> <br><br>
-					<img src=<%= place.image %> height="250px" width="250px" class="dinopic">
-				</div>
-			<% end %>
-		</div>
-	</body>
-</html>
+    <div class ="subsite_header">
+      <p4> ABOUT US </p4>
+    </div>
+
+  </body>
+  </html>

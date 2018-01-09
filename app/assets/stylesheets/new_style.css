@@ -1,91 +1,79 @@
-body, html {
-  font-family: 'Lucida Console', sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  display: initial;
-  background: white;
-}
-
-/* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
-
-div.top-menu {
-	display: flex;
-	width: 100%;
-	height: 2.5em;
-	position: fixed;
-	z-index: 1;
-	background-color: #ffffffb8;
-  border-bottom-color: #ad8f5178;
-	border-bottom-style: solid;
-	border-bottom-width: 0.05em;
-}
-
-nav.navigation {
-	width: 100%;
-	z-index: 1;
-	height: 3.5em;
-  padding-top: 0.5em;
-}
-
-#top a:link {
-	color: #6d9d78;
-	text-decoration: none;
-}
-
-#top a:visited {
-	text-decoration: none;
-	color: #6d9d78;
-}
-
-#top a:hover {
-	color: #fcd253;
-	text-decoration: none;
-}
-
-#top a:active {
-	color: #fcd253;
-	text-decoration: none;
-}
-
-
- ul {
-  list-style-type: none;
-  width: 100%;
-  padding: 0;
-  height: 2.5em;
-  vertical-align: center;
-  overflow: scroll;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
- li {
- color: #517858;
- font-family: Playfair Display SC;
- letter-spacing: 0.2em;
- display: inline-block;
- width: 19%;
- text-align: center;
- font-size: 1.1em;
-}
-
-li:hover {
-	color: #c07765;
-}
-
 .create {
   background-color: lightgrey;
+  padding-bottom: 3em;
 }
 
 .container {
-  background-color: white;
 }
 
-.field {
-  background-color: white;
+.fields {
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 
-.action {
-  background-color: white;
+.actions {
+  margin-left: 10em;
+  height: 3em;
+  padding-bottom: 1em;
+}
+
+.single_field {
+  background-color: #efeeebf0;
+  width: 25em;
+}
+
+.add_a_dinosaur {
+  padding-top: 2em;
+  background-color: #dfdad3;
+  height: 14em;
+}
+
+p7 {
+  font-family: Bellefair;
+  font-size: 1.2em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 10em;
+  cursor: default;
+  letter-spacing: 0.02em;
+  margin-left: 4em;
+}
+
+p8 {
+  font-family: Bellefair;
+  font-size: 1.0em;
+  color: #5b5547d6;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 4em;
+  cursor: default;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  background-color: #caabab;
+  border-radius: 65px;
+  position: absolute;
+  margin-top: -6%;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-family: Playfair Display SC;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 20px grey;
+}
+
+#veloci {
+  height: 400px;
+  margin-left: 50%;
+  position: absolute;
+  margin-top: -25%;
 }

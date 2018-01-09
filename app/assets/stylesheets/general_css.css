@@ -1,0 +1,94 @@
+body, html {
+  font-family: 'Lucida Console', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: initial;
+  background: white;
+}
+
+/* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
+
+div.top-menu {
+	display: flex;
+	width: 100%;
+	height: 2.5em;
+	position: fixed;
+	z-index: 1;
+	background-color: #ffffffb8;
+  border-bottom-color: #ad8f5178;
+	border-bottom-style: solid;
+	border-bottom-width: 0.05em;
+}
+
+nav.navigation {
+	width: 100%;
+	z-index: 1;
+	height: 3.5em;
+  padding-top: 0.5em;
+}
+
+#top a:link {
+	color: #6d9d78;
+	text-decoration: none;
+}
+
+#top a:visited {
+	text-decoration: none;
+	color: #6d9d78;
+}
+
+#top a:hover {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+#top a:active {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+
+ ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  height: 2.5em;
+  vertical-align: center;
+  overflow: scroll;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ li {
+ color: #517858;
+ font-family: Playfair Display SC;
+ letter-spacing: 0.2em;
+ display: inline-block;
+ width: 19%;
+ text-align: center;
+ font-size: 1.1em;
+}
+
+li:hover {
+	color: #c07765;
+}
+
+/* --------------------------------------SUBSITES-------------------------------------- */
+
+.subsite_header {
+  background-color: #889b8c;
+  height: 7em;
+}
+
+/* ------- STYL HEADERA ------- */
+p4 {
+font-family: Playfair Display SC;
+font-size: 1.6em;
+font-weight: 800;
+padding-top: 2em;
+color: #464034;
+letter-spacing: 0.01em;
+text-align: center;
+display: block;
+}

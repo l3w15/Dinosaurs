@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   # zostaniemy przeniesieni do controllera places, metody create.
   # formularze zawsze tworza akcje post albo put (tylko do tworzenia rzeczy)
   get '/dinoplaces' => 'places#dinoplaces'
+  get '/map' => 'places#map'
+  get '/about' => 'places#about'
+
+
 end

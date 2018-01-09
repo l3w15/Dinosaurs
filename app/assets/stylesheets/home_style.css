@@ -1,78 +1,4 @@
-body, html {
-  font-family: 'Lucida Console', sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  display: initial;
-  background: white;
-}
 
-/* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
-
-div.top-menu {
-	display: flex;
-	width: 100%;
-	height: 2.5em;
-	position: fixed;
-	z-index: 1;
-	background-color: #ffffffb8;
-  border-bottom-color: #ad8f5178;
-	border-bottom-style: solid;
-	border-bottom-width: 0.05em;
-}
-
-nav.navigation {
-	width: 100%;
-	z-index: 1;
-	height: 3.5em;
-  padding-top: 0.5em;
-}
-
-#top a:link {
-	color: #6d9d78;
-	text-decoration: none;
-}
-
-#top a:visited {
-	text-decoration: none;
-	color: #6d9d78;
-}
-
-#top a:hover {
-	color: #fcd253;
-	text-decoration: none;
-}
-
-#top a:active {
-	color: #fcd253;
-	text-decoration: none;
-}
-
-
- ul {
-  list-style-type: none;
-  width: 100%;
-  padding: 0;
-  height: 2.5em;
-  vertical-align: center;
-  overflow: scroll;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
- li {
- color: #517858;
- font-family: Playfair Display SC;
- letter-spacing: 0.2em;
- display: inline-block;
- width: 19%;
- text-align: center;
- font-size: 1.1em;
-}
-
-li:hover {
-	color: #c07765;
-}
 /* --------------------------------------intro --------------------------------------*/
 .intro {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/37/Ichthyosaur_and_Plesiosaur_1863.jpg");
@@ -90,6 +16,10 @@ li:hover {
   background: linear-gradient(#ffffff00, #fffffffc);
 }
 
+.sir {
+  margin-left: 38em;
+}
+
 h1 {
   font-family: Playfair Display SC;
   font-size: 1.6em;
@@ -98,7 +28,7 @@ h1 {
   text-align: left;
   width: 100%;
   margin-top: 4em;
-  margin-left: 2em;
+  margin-left: 1em;
   cursor: default;
   letter-spacing: 0.02em;
 }
@@ -106,7 +36,7 @@ h1 {
 p1 {
   font-family: Bellefair;
   font-size: 1.2em;
-  color: #938d86;
+  color: #6a6560;
   display: inline-block;
   text-align: left;
   width: 100%;
@@ -117,135 +47,8 @@ p1 {
   margin-bottom: 1.5em;
   cursor: default;
   letter-spacing: 0.02em;
-}
-/* --------------------------------------slides-------------------------------------- */
-.slides {
-  background-color: #d6cfc775;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30em;
-}
+};
 
-.phenomenon_description {
-background: #94a397;
-height: 6em;
-}
-
-.description_text {
-width: 45%;
-margin-left: auto;
-margin-right: auto;
-}
-
-p4 {
-font-family: Playfair Display SC;
-font-size: 1.6em;
-font-weight: 800;
-padding-top: 1.2em;
-color: #464034;
-letter-spacing: 0.01em;
-text-align: center;
-display: block;
-}
-
-
-/* --------------------------------------map-------------------------------------- */
-
-.dinosaur_map_invit {
-  background-color: #94a397;
-  height: 6em;
-}
-
-.dinosaur_map {
-  height: 30em;
-  background-color: #d6cfc775;
-}
-/* --------------------------------------add-a-dinosaur-------------------------------------- */
-
-.dinosaur_add_invit {
-  background-color: #94a397;
-  height: 6em;
-}
-
-.add_a_dinosaur {
-  padding-top: 2em;
-  background-color: #dfdad3;
-  height: 14em;
-}
-
-#velio {
-  display: flex;
-  margin-left: 5%;
-}
-
-p5 {
-  font-family: Playfair Display SC;
-  font-size: 1.6em;
-  color: #5b5547d6;
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  margin-left: 2em;
-  cursor: default;
-  letter-spacing: 0.02em;
-}
-
-p6 {
-  font-family: Playfair Display SC;
-  font-size: 1.4em;
-  color: #5b5547d6;
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  margin-left: 2em;
-  cursor: default;
-  letter-spacing: 0.02em;
-}
-
-p7 {
-  font-family: Bellefair;
-  font-size: 1.2em;
-  color: #5b5547d6;
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  margin-left: 10em;
-  cursor: default;
-  letter-spacing: 0.02em;
-  margin-left: 4em;
-}
-
-p8 {
-  font-family: Bellefair;
-  font-size: 1.0em;
-  color: #5b5547d6;
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  margin-left: 3em;
-  cursor: default;
-  letter-spacing: 0.02em;
-}
-.button {
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 35px;
-  margin-left: 68%;
-  position: absolute;
-  margin-top: -8%;
-}
-
-.about_us_invit {
-  height: 6em;
-  background-color: #94a397;
-}
 
 /* --------------------------------------FOOTER-------------------------------------- */
 
