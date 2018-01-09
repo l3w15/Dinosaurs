@@ -35,10 +35,12 @@
 
      	<%= form_for(@place, url: '/place') do |f| %>
     		<div class="fields">
-      		<p7> Name: <br> <%= f.text_area :name, class: "single_field", placeholder: "How do you want to name this dinosaur?" %> </p7>
-          <p7> Description: <br> <%= f.text_area :description, class: "single_field", placeholder: "Add a brief description of this dinosaur." %> </p7>
-          <p7> Address: <br> <%= f.text_area :address, class: "single_field", placeholder: "Where can we find this dinosaur?" %> </p7>
-          <p7> Image: <br> <%= f.text_area :image, class: "single_field", placeholder: "Link to the online image of dinosaur (facultative)" %> </p7>
+					<p7> Your name: * <br> <%= f.text_area :user_name, class: "single_field", placeholder: "What's your name?" %> </p7>
+      		<p7> Dinosaur name: * <br> <%= f.text_area :name, class: "single_field", placeholder: "How do you want to name this dinosaur?" %> </p7>
+          <p7> Description: * <br> <%= f.text_area :description, class: "single_field", placeholder: "Add a brief description of this dinosaur." %> </p7>
+          <p7> Address: * <br> <%= f.text_area :address, class: "single_field", placeholder: "Where can we find this dinosaur?" %> </p7>
+          <p7> Image: <br> <%= f.text_area :image, class: "single_field", placeholder: "Link to the online image of dinosaur" %> </p7>
+					<p8> * - compulsory fields </p8>
     		</div>
     		<div class="actions">
       		<%= f.submit "Submit", class: "button" %> <!-- when submit is called, take data from form and send them to url: place_path-->
@@ -46,7 +48,7 @@
 				<p8>Remember - once added, the dinosaur info cannot be removed.</p8>
 				<p8>At least not by you.</p8>
   		<% end %>
-			<img src="https://vignette.wikia.nocookie.net/walkingwith/images/5/55/Velociraptor-dino-large.png/revision/latest?cb=20131026181528", id="veloci">
+			<img src="https://i0.wp.com/islanublar.jurassicworld.com/media/dinosaurs/apatosaurus/apatosaurus-info-graphic.png", id="bronto">
   	</div>
 
 </body>

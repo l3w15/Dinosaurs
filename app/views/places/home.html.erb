@@ -21,6 +21,9 @@
   			</ul>
 			</nav>
 		</div>
+		<% if flash[:notice] %>
+			<div class="notice"><%= flash[:notice] %></div>
+		<% end %>
 		<div class="intro">
 			<div class ="dinosaur_Q_and_A">
 				<h1>  Dinosaurs in London. </h1>

@@ -24,6 +24,9 @@
 		<div class ="subsite_header">
 			<p4> Check out our full dino-database </p4>
 		</div>
+    <% if flash[:notice] %>
+      <div class="notice"><%= flash[:notice] %></div>
+    <% end %>
 		<div class ="dinosaur_grid">
 			<!-- opening tag and percent below means that we use ruby here [does operation]-->
 			<% @places.each do |place| %>
@@ -31,7 +34,8 @@
 					<!-- opening tag, percent and assignment below means that we use ruby here [does operation and returns value]-->
 					<h2> <%= place.name %>  </h2> <br>
 					<p2> <%= place.description %> </p2> <br>
-					<p3> <%= place.address %> </p3> <br><br>
+					<p2> <%= place.address %> </p2> <br>
+          <p3> Added by: <%= place.user_name %> </p3> <br><br>
 					<img src=<%= place.image %> height="250px" width="250px" class="dinopic">
 				</div>
 			<% end %>
