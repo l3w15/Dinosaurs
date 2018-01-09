@@ -40,15 +40,17 @@
 					<p7> Your name: * <br> <%= f.text_area :user_name, class: "single_field", placeholder: "What's your name?" %> </p7>
       		<p7> Dinosaur name: * <br> <%= f.text_area :name, class: "single_field", placeholder: "How do you want to name this dinosaur?" %> </p7>
           <p7> Description: * <br> <%= f.text_area :description, class: "single_field", placeholder: "Add a brief description of this dinosaur." %> </p7>
-          <p7> Address: * <br> <%= f.text_area :address, class: "single_field", placeholder: "Where can we find this dinosaur?" %> </p7>
-          <p7> Link to image: <br> <%= f.text_area :image_address, class: "single_field", placeholder: "Link to the online image of dinosaur" %> </p7>
+          <p7> Address: * <br> <%= f.text_area :address, class: "single_field", placeholder: "Where can we find this dinosaur?" %> </p7><br>
+					<p8> * - mandatory fields </p8>
+					<br><br><br>
+          <p7> Link to an image: <br> <%= f.text_area :image_address, class: "single_field", placeholder: "Link to the online image of dinosaur" %> </p7> <br><%  %>
 					<form>
-			  <div class="form-group">
-			    <p7> Upload an image: </p7><br>
-					<div class="upload"><%= f.file_field :image %></div>
-			  </div>
+					<p12> or </p12>
+			  	<div class="form-group">
+				    <p7> Upload an image from a file: </p7><br>
+						<div class="upload"><%= f.file_field :image %></div>
+			  	</div>
     		</div>
-				<p8> * - mandatory fields </p8>
     		<div class="actions">
       		<%= f.submit "Submit", class: "button" %> <!-- when submit is called, take data from form and send them to url: place_path-->
     		</div>

@@ -54,7 +54,15 @@ p8 {
 
 .upload {
   margin-left: 5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.6em;
+  padding-top: 0.5em;
+}
+
+p12 {
+  font-family: Bellefair;
+  font-size: 1.2em;
+  margin-left: 7em;
+  color: #a76262;
 }
 
 .button {
