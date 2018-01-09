@@ -1,6 +1,6 @@
 .website_info {
   background-color: lightgrey;
-  height: 20em;
+  height: calc(100% - 112px);
 }
 
 .about_us {
