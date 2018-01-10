@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 1. General information
 
-Things you may want to cover:
+This is a RoR & Javascript web app devoted to Dinosaurs in London created by @Kotauror and @l3w15.
 
-* Ruby version
+It consists of:
 
-* System dependencies
+* Slideshow of the best dinosaurs in London
 
-* Configuration
+* Map of London dinosaurs
 
-* Database creation
+* Dinosaur - database
 
-* Database initialization
+* A form which allows users to add their dinosaur to the database
 
-* How to run the test suite
+## 2. Run the app
+__________________________________
+In order to run the app, follow these steps:
 
-* Services (job queues, cache servers, search engines, etc.)
+* Install Rails at the command prompt if you haven't yet:
 
-* Deployment instructions
+ $ gem install rails
 
-* ...
+* Download this repo
+
+* Change directory to the repo and start the web server:
+
+ $ cd <repo>
+ $ rails server
+
+* Using a browser, go to http://localhost:3000 and you'll see our app!
