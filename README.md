@@ -19,14 +19,17 @@ It consists of:
 In order to run the app, follow these steps:
 
 * Install Rails at the command prompt if you haven't yet:
-
+```shell
  $ gem install rails
-
+```
 * Download this repo
 
 * Change directory to the repo and start the web server:
-
+```shell
  $ cd <repo>
+ ```
+ ```shell
  $ rails server
+ ```
 
 * Using a browser, go to http://localhost:3000 and you'll see our app!
