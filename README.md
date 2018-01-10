@@ -2,7 +2,7 @@
 
 ## 1. General information
 
-This is a RoR & Javascript web app devoted to Dinosaurs in London created by @Kotauror and @l3w15.
+This is a RoR & Javascript web app dedicated to Dinosaurs in London, created by @Kotauror and @l3w15.
 
 It consists of:
 
