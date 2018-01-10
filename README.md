@@ -15,7 +15,7 @@ It consists of:
 * A form which allows users to add their dinosaur to the database
 
 ## 2. Run the app
-__________________________________
+
 In order to run the app, follow these steps:
 
 * Install Rails at the command prompt if you haven't yet:
