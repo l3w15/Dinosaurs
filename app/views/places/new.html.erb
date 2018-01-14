@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Required meta tags -->
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		 <!-- Bootstrap CSS-->
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 		 <%= stylesheet_link_tag "new_style" %>
 		 <%= stylesheet_link_tag "general_css" %>
     	<title>London dinosaurs</title>
@@ -10,17 +15,35 @@
 		<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 	</head>
 	<body>
-		<div class="top-menu">  <!-- ________________________________________TOP MENU______________________________________ -->
-			<nav class="navigation">
- 			 	<ul>
-					<a href="/home" id="top"><li>HOME</li></a>
-					 <a href="/map" id="top"><li>MAP</li></a>
-					 <a href="/dinoplaces" id="top"><li>DINO DATABASE</li></a>
-					 <a href="place/new" id="top"><li>ADD A DINO</li></a>
-					 <a href="/about" id="top"><li>ABOUT US</li></a>
-  			</ul>
-			</nav>
-		</div>
+
+
+<!-- BOOTSTRAP NAVBAR -->
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="/home">HOME</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="/map">MAP </a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/dinoplaces">DINO DATABASE</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="place/new">ADD A DINO</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/about">ABOUT US </a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+
+
 		<div class ="subsite_header">
 			<p4> Add a dinosaur to our website </p4>
 		</div>
@@ -59,6 +82,10 @@
   		<% end %>
 			<img src="https://i0.wp.com/islanublar.jurassicworld.com/media/dinosaurs/apatosaurus/apatosaurus-info-graphic.png", id="bronto">
   	</div>
-
+		<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 </html>
