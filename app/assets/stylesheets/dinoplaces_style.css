@@ -11,6 +11,19 @@
   grid-column-gap: 1.8em;
 }
 
+@media only screen and (max-device-width: 800px) {
+  .dinosaur_grid {
+    display: block;
+    font-size: 1.2em;
+  }
+  .dinopic {
+    width: 230px;
+  }
+
+
+}
+
+
 .dino_box {
   color: black;
   margin-right: 2%;
