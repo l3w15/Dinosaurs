@@ -57,12 +57,12 @@
 					<!-- opening tag, percent and assignment below means that we use ruby here [does operation and returns value]-->
 					<h2> <%= place.name.upcase %>  </h2><br>
           <div class="small_image">
-          <% if place.image_address == nil || place.image_address.length  > 0 then %>
-					     <img src=<%= place.image_address %> height="250px" width="250px" class="dinopic">
+           <% if place.image_address == nil || place.image_address.length  > 0 then %>
+					  <img src=<%= place.image_address %> height="250px" width="250px" class="dinopic">
           <% else %>
             <%= link_to image_tag(place.image.url(:med)), place.image.url %>
           <% end %>
-        </div><br>
+				</div><br>
         <p3> Added by: <%= place.user_name %> </p3> <br>
 					<p2> Description: <%= place.description %> </p2> <br>
 					<p2> Address: <%= place.address %> </p2> <br>

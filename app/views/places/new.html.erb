@@ -46,7 +46,7 @@
 
 
 		<div class ="subsite_header">
-			<p4> Add a dinosaur to the website </p4>
+			<p4> Add a dinosaur </p4>
 		</div>
 		<% if flash[:notice] %>
 			<div class="notice"><%= flash[:notice] %></div>
@@ -59,7 +59,9 @@
 				</div>
 			<% end %>
 
-     	<%= form_for @place, url: '/place', html: { multipart: true } do |f| %>
+
+
+	    <%= form_for @place, url: '/place', html: { multipart: true } do |f| %>
     		<div class="fields">
 					<p7> Your name: * <br> <%= f.text_area :user_name, class: "single_field", placeholder: "What's your name?" %> </p7>
       		<p7> Dinosaur name: * <br> <%= f.text_area :name, class: "single_field", placeholder: "How do you want to name this dinosaur?" %> </p7>
@@ -83,6 +85,8 @@
   		<% end %>
 			<img src="https://i0.wp.com/islanublar.jurassicworld.com/media/dinosaurs/apatosaurus/apatosaurus-info-graphic.png", id="bronto">
   	</div>
+
+
 		<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

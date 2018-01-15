@@ -1,3 +1,38 @@
+html,body {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+
+@media only screen and (max-device-width: 800px) {
+  .fields {
+    width: 100%;
+    display: block;
+  }
+
+  #bronto {
+    display: none;
+  }
+
+  p8 {
+    margin-left: 0.2em !important;
+  }
+
+  .single_field {
+    width: 100% !important;
+  }
+
+  p7 {
+    width: 70% !important;
+    margin-left: 2em !important;
+  }
+
+  html {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
+
 .create {
   background-color: lightgrey;
   padding-bottom: 3em;
@@ -18,7 +53,7 @@
 
 .single_field {
   background-color: #efeeebf0;
-  width: 25em;
+  width: 50%;
 }
 
 .add_a_dinosaur {
@@ -53,7 +88,7 @@ p8 {
 }
 
 .upload {
-  margin-left: 5em;
+  margin-left: 1em;
   margin-bottom: 0.6em;
   padding-top: 0.5em;
 }
@@ -85,7 +120,7 @@ p12 {
 
 #bronto {
   height: 400px;
-  margin-left: 35%;
+  margin-left: 30%;
   position: absolute;
   margin-top: -25%;
 }
