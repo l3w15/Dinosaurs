@@ -1,3 +1,22 @@
+@media only screen and (max-device-width: 800px) {
+  .dinosaur_Q_and_A {
+    width: 100% !important;
+    margin-left: 0em !important;
+  }
+  .intro {
+    overflow: none;
+  }
+
+  #sir {
+    display: none;
+  }
+
+  h1 {
+    text-align: center !important;
+    margin-left: auto !important;
+  }
+}
+
 
 /* --------------------------------------intro --------------------------------------*/
 .intro {
@@ -10,7 +29,6 @@
 .dinosaur_Q_and_A {
   width: 30%;
   text-align: left;
-  width: 22em;
   text-align: left;
   margin-left: 1.1em;
   background: linear-gradient(#ffffff00, #fffffffc);
@@ -18,7 +36,7 @@
 
 .sir {
   margin-left: 39em;
-  margin-top: -5.5%;
+  margin-top: -3.5%;
 }
 
 h1 {
