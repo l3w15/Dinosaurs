@@ -22,16 +22,17 @@
 .intro {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/37/Ichthyosaur_and_Plesiosaur_1863.jpg");
   background-size: cover;
-  height: 60em;
+  height: calc(100% - 62.4px);
+  background-position: center;
 }
 
 /* --------------------------------------dinosaur_Q_and_A-------------------------------------- */
 .dinosaur_Q_and_A {
-  width: 30%;
+  width: 25em;;
   text-align: left;
   text-align: left;
   margin-left: 1.1em;
-  background: linear-gradient(#ffffff00, #fffffffc);
+  background: linear-gradient(#f8f9fa4f, #fffffffc);
 }
 
 .sir {
@@ -42,12 +43,14 @@
 h1 {
   font-family: Playfair Display SC;
   font-size: 1.6em;
-  color: #5b5547d6;
+  color: #1c6822d6;
   display: inline-block;
   text-align: left;
   width: 100%;
-  margin-top: 4em;
-  margin-left: 1em;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   cursor: default;
   letter-spacing: 0.02em;
 }
@@ -55,7 +58,7 @@ h1 {
 p1 {
   font-family: Bellefair;
   font-size: 1.2em;
-  color: #6a6560;
+  color: #2b6a2b;
   display: inline-block;
   text-align: left;
   width: 100%;
@@ -63,7 +66,7 @@ p1 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.2em;
   cursor: default;
   letter-spacing: 0.02em;
 };

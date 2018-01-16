@@ -10,8 +10,15 @@ body, html {
 .navbar {
   font-family: Playfair Display SC;
   border-bottom-style: solid;
-  border-bottom-color: #373125;
+  border-bottom-color: #dfe2e5;
   border-bottom-width: 0.15em;
+  padding: 0rem !important;
+  padding-left: 0.7em !important;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.1em;
 }
 
 /* --------------------------------------SUBSITES-------------------------------------- */
