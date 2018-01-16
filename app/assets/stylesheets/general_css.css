@@ -7,9 +7,11 @@ body, html {
   background: white;
 }
 
-
-.header {
+.navbar {
   font-family: Playfair Display SC;
+  border-bottom-style: solid;
+  border-bottom-color: #373125;
+  border-bottom-width: 0.15em;
 }
 
 /* --------------------------------------SUBSITES-------------------------------------- */

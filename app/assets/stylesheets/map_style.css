@@ -13,6 +13,6 @@ p13 {
 .dinosaur_map {
   padding-top: 2.2em;
   background-color: lightgrey;
-  height: calc(100% - 112px);
   width: 100%;
+  height: calc(100% - 170px);
 }
