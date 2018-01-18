@@ -6,15 +6,17 @@ This is a RoR & Javascript web app dedicated to Dinosaurs in London, created by 
 
 It consists of:
 
-* Slideshow of the best dinosaurs in London
-
 * Map of London dinosaurs
 
 * Dinosaur - database
 
 * A form which allows users to add their dinosaur to the database
 
-## 2. Run the app
+## 2. Run the app from heroku
+
+* Go to http://london-dinosaurs.herokuapp.com/
+
+## 3. Run the app from local host
 
 In order to run the app, follow these steps:
 
