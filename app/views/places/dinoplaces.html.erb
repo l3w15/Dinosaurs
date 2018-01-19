@@ -48,6 +48,7 @@
     <% if flash[:notice] %>
       <div class="notice"><%= flash[:notice] %></div>
     <% end %>
+		<div class = "site">
 		<div class ="dinosaur_grid">
 			<!-- opening tag and percent below means that we use ruby here [does operation]-->
 			<% @places.each do |place| %>
@@ -66,5 +67,6 @@
 				</div>
 			<% end %>
 		</div>
+	</div>
 
 </html>

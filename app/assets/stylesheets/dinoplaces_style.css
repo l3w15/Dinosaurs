@@ -21,7 +21,9 @@
   }
 }
 
-
+.site {
+  background-color: white;
+}
 .dino_box {
   color: black;
   margin-right: 2%;
@@ -63,6 +65,12 @@ filter: grayscale(50%);
 
 .small_image {
   margin-top: 1em;
+}
+
+.small_image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 /* -------------------------------- flash notice ---------------- */
 
